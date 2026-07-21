@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B4F6C"/>
+      <stop offset="100%" style="stop-color:#073B4C"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#06D6A0"/>
+      <stop offset="100%" style="stop-color:#1B9AAA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="100" cy="100" r="200" fill="#1B9AAA" opacity="0.1"/>
+  <circle cx="1100" cy="530" r="250" fill="#06D6A0" opacity="0.08"/>
+
+  <!-- Logo icon -->
+  <g transform="translate(540, 120) scale(2)">
+    <rect width="120" height="120" rx="30" fill="url(#accent)"/>
+    <path d="M60 30 C60 30 42 45 42 60 C42 75 51 81 60 90 C69 81 78 75 78 60 C78 45 60 30 60 30Z" fill="white" opacity="0.95"/>
+    <circle cx="60" cy="58" r="10" fill="#0B4F6C"/>
+    <path d="M52 75 Q60 82 68 75" stroke="white" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Title -->
+  <text x="600" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" direction="rtl">رعاية بيتي</text>
+  <text x="600" y="400" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" fill="#06D6A0">RayaBetty</text>
+
+  <!-- Subtitle -->
+  <text x="600" y="470" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" fill="white" opacity="0.9">تمريض منزلي ورعاية صحية منزلية في مصر</text>
+
+  <!-- Bottom bar -->
+  <rect x="0" y="580" width="1200" height="50" fill="#06D6A0" opacity="0.2"/>
+  <text x="600" y="612" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#06D6A0">📞 01030313959 | 💬 واتساب متاح 24/7</text>
+</svg>
